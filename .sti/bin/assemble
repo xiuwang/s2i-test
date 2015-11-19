@@ -3,3 +3,4 @@
 echo "== Assemble ==="
 getent hosts people || echo "Unknown host"
 cat /etc/resolv.conf
+env
