@@ -1,0 +1,5 @@
+#!/bin/sh
+
+echo "=== Run ==="
+getent hosts people || echo "Unknown host"
+

@@ -1,0 +1,5 @@
+#!/bin/sh
+
+echo "== Assemble ==="
+getent hosts people || echo "Unknown host"
+
