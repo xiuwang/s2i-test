@@ -4,3 +4,4 @@ echo "=== Run ==="
 getent hosts people || echo "Unknown host"
 cat /etc/resolv.conf
 env
+sleep 300
