@@ -1,7 +1,7 @@
 #!/bin/sh -x
 
 echo "== Assemble ==="
-getent hosts example.com || echo "Unknown host"
-getent hosts www.example.com || echo "Unknown host"
+getent ahosts example.com || echo "Unknown host"
+getent ahosts www.example.com || echo "Unknown host"
 cat /etc/resolv.conf
 env
