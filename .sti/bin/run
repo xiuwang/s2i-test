@@ -1,7 +1,8 @@
 #!/bin/sh -x
 
 echo "=== Run ==="
-getent hosts people || echo "Unknown host"
+getent hosts example.com || echo "Unknown host"
+getent hosts www.example.com || echo "Unknown host"
 cat /etc/resolv.conf
 env
 sleep 300
