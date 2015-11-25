@@ -2,6 +2,5 @@
 
 echo "== Assemble ==="
 getent ahosts frontend-xiuwang.router.default.svc.cluster.local || echo "Unknown host"
-curl 'frontend-xiuwang.router.default.svc.cluster.local'
+curl 'frontend-xiuwang.router.default.svc.cluster.local' | egrep Welcome
 cat /etc/resolv.conf
-env
